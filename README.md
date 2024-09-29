@@ -1,5 +1,5 @@
 # Proyek Analisis Data
-Proyek analisis data Dicoding. Setiap analisa dibuat berada di bawah output dari block kode yang ada, namun berada di atas insight.
+Proyek analisis data Dicoding.
 
 ## Cara menjalankan
 Pastikan semua library yang dibutuhkan terinstall.
