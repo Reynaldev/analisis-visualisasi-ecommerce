@@ -4,25 +4,30 @@ import streamlit.components.v1 as components
 
 st.title('Analisis dan Visualisasi Data Menggunakan Matplotlib, Folium, Seaborn, dan GeoPandas')
 
-st.markdown('> Versi Google Colab: [Google Colab](https://colab.research.google.com/drive/1bsj6vyZ8Ur4rwDHK0-XIqB7VTv7cjAw-?usp=sharing)')
+st.markdown(
+    '''
+    > Versi Google Colab: [Google Colab](https://colab.research.google.com/drive/1bsj6vyZ8Ur4rwDHK0-XIqB7VTv7cjAw-?usp=sharing)
+    > Githu: [Reynaldev](https://github.com/Reynaldev/analisis-visualisasi-ecommerce)
+    '''
+)
 
 st.header('Peringkat Produk Berdasarkan Rating atau Penjualannya')
 
 tab1, tab2 = st.tabs(['Ratings', 'Sales'])
 
 with tab1:
-    st.image('../assets/prod-avg-ratings.png')
+    st.image('assets/prod-avg-ratings.png')
 
 with tab2:
-    st.image('../assets/prod-total-sales.png')
+    st.image('assets/prod-total-sales.png')
 
 st.header('Grafik RFM')
 
-st.image('../assets/rfm.png')
+st.image('assets/rfm.png')
 
 st.header('Grafik Histogram')
 
-st.image('../assets/histplot.png')
+st.image('assets/histplot.png')
 
 st.header('Peta Persebaran Pembeli')
 
