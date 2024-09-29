@@ -16,18 +16,18 @@ st.header('Peringkat Produk Berdasarkan Rating atau Penjualannya')
 tab1, tab2 = st.tabs(['Ratings', 'Sales'])
 
 with tab1:
-    st.image('assets/prod-avg-ratings.png')
+    st.image('dashboard/assets/prod-avg-ratings.png')
 
 with tab2:
-    st.image('assets/prod-total-sales.png')
+    st.image('dashboard/assets/prod-total-sales.png')
 
 st.header('Grafik RFM')
 
-st.image('assets/rfm.png')
+st.image('dashboard/assets/rfm.png')
 
 st.header('Grafik Histogram')
 
-st.image('assets/histplot.png')
+st.image('dashboard/assets/histplot.png')
 
 st.header('Peta Persebaran Pembeli')
 
