@@ -32,7 +32,7 @@ st.image('dashboard/assets/histplot.png')
 st.header('Peta Persebaran Pembeli')
 
 map_html = ""
-with open('map.html', 'r') as file:
+with open('dashboard/map.html', 'r') as file:
     for line in file:
         map_html += line
 
