@@ -12,4 +12,7 @@ Bisa dijalankan secara cloud maupun local pada file Proyek_Analisis_Data.ipynb
 ### Streamlit
 Cukup jalankan command di bawah.
 
-`streamlit run index.py`
+`streamlit run dashboard/index.py`
+
+### Streamlit Cloud
+Cek [url.txt](url.txt)

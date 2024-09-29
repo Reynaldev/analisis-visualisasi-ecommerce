@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 st.title('Analisis dan Visualisasi Data Menggunakan Matplotlib, Folium, Seaborn, dan GeoPandas')
 
-st.markdown('> Versi Google Colab: [](https://colab.research.google.com/drive/1bsj6vyZ8Ur4rwDHK0-XIqB7VTv7cjAw-?usp=sharing)')
+st.markdown('> Versi Google Colab: [Google Colab](https://colab.research.google.com/drive/1bsj6vyZ8Ur4rwDHK0-XIqB7VTv7cjAw-?usp=sharing)')
 
 st.header('Peringkat Produk Berdasarkan Rating atau Penjualannya')
 
@@ -24,7 +24,7 @@ st.header('Grafik Histogram')
 
 st.image('./assets/histplot.png')
 
-st.header('Grafik Persebaran Pembeli')
+st.header('Peta Persebaran Pembeli')
 
 map_html = ""
 with open('./map.html', 'r') as file:
