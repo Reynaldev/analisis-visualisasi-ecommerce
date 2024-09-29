@@ -10,7 +10,9 @@ Pastikan semua library yang dibutuhkan terinstall.
 Bisa dijalankan secara cloud maupun local pada file Proyek_Analisis_Data.ipynb
 
 ### Streamlit
-Cukup jalankan command di bawah.
+> Note: Jangan pindah ke directory "dashboard".
+
+Lalu jalankan command di bawah.
 
 `streamlit run dashboard/index.py`
 
