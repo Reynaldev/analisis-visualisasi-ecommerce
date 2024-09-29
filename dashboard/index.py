@@ -7,7 +7,8 @@ st.title('Analisis dan Visualisasi Data Menggunakan Matplotlib, Folium, Seaborn,
 st.markdown(
     '''
     > Versi Google Colab: [Google Colab](https://colab.research.google.com/drive/1bsj6vyZ8Ur4rwDHK0-XIqB7VTv7cjAw-?usp=sharing)
-    > Githu: [Reynaldev](https://github.com/Reynaldev/analisis-visualisasi-ecommerce)
+    >
+    > Github: [Reynaldev](https://github.com/Reynaldev/analisis-visualisasi-ecommerce)
     '''
 )
 
